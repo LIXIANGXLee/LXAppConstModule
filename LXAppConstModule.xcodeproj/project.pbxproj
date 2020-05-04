@@ -13,6 +13,8 @@
 		048B8ACB24601A6900AD218E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048B8AC924601A6900AD218E /* Main.storyboard */; };
 		048B8ACD24601A6A00AD218E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048B8ACC24601A6A00AD218E /* Assets.xcassets */; };
 		048B8AD024601A6A00AD218E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048B8ACE24601A6A00AD218E /* LaunchScreen.storyboard */; };
+		048B8ADA24601B3400AD218E /* LXAppConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B8AD824601B3400AD218E /* LXAppConst.swift */; };
+		048B8ADB24601B3400AD218E /* LXAppConstManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 048B8AD924601B3400AD218E /* LXAppConstManager.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		048B8ACC24601A6A00AD218E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048B8ACF24601A6A00AD218E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048B8AD124601A6A00AD218E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048B8AD824601B3400AD218E /* LXAppConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXAppConst.swift; sourceTree = "<group>"; };
+		048B8AD924601B3400AD218E /* LXAppConstManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXAppConstManager.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		048B8AB724601A6800AD218E = {
 			isa = PBXGroup;
 			children = (
+				048B8AD724601B3400AD218E /* LXAppConstManager */,
+				048B8AD924601B3400AD218E /* LXAppConstManager.podspec */,
 				048B8AC224601A6800AD218E /* LXAppConstModule */,
 				048B8AC124601A6800AD218E /* Products */,
 			);
@@ -65,6 +71,14 @@
 				048B8AD124601A6A00AD218E /* Info.plist */,
 			);
 			path = LXAppConstModule;
+			sourceTree = "<group>";
+		};
+		048B8AD724601B3400AD218E /* LXAppConstManager */ = {
+			isa = PBXGroup;
+			children = (
+				048B8AD824601B3400AD218E /* LXAppConst.swift */,
+			);
+			path = LXAppConstManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048B8ADB24601B3400AD218E /* LXAppConstManager.podspec in Resources */,
 				048B8AD024601A6A00AD218E /* LaunchScreen.storyboard in Resources */,
 				048B8ACD24601A6A00AD218E /* Assets.xcassets in Resources */,
 				048B8ACB24601A6900AD218E /* Main.storyboard in Resources */,
@@ -141,6 +156,7 @@
 				048B8AC824601A6900AD218E /* ViewController.swift in Sources */,
 				048B8AC424601A6800AD218E /* AppDelegate.swift in Sources */,
 				048B8AC624601A6900AD218E /* SceneDelegate.swift in Sources */,
+				048B8ADA24601B3400AD218E /* LXAppConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
